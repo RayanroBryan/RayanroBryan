@@ -7,7 +7,7 @@
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="es"
                 href="/blog/"
                 />
     <xhtml:link
@@ -23,7 +23,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/categories/"
+                href="/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -43,7 +43,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/categories/"
+                href="/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -72,7 +72,7 @@
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="es"
                 href="/tags/css/"
                 />
     <xhtml:link
@@ -87,7 +87,7 @@
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="es"
                 href="/blog/markdown-syntax/"
                 />
     <xhtml:link
@@ -102,7 +102,7 @@
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="es"
                 href="/tags/html/"
                 />
     <xhtml:link
@@ -118,7 +118,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/"
+                href="/en/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -138,7 +138,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/"
+                href="/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -167,7 +167,7 @@
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="es"
                 href="/tags/markdown/"
                 />
     <xhtml:link
@@ -182,7 +182,7 @@
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="es"
                 href="/categories/syntax/"
                 />
     <xhtml:link
@@ -198,7 +198,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/"
+                href="/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -218,7 +218,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/tags/"
+                href="/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -247,7 +247,7 @@
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="es"
                 href="/tags/themes/"
                 />
     <xhtml:link
@@ -262,7 +262,7 @@
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="es"
                 href="/categories/themes/"
                 />
     <xhtml:link
@@ -277,7 +277,7 @@
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="es"
                 href="/tags/emoji/"
                 />
     <xhtml:link
@@ -292,7 +292,7 @@
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="es"
                 href="/blog/emoji-support/"
                 />
     <xhtml:link
@@ -307,11 +307,6 @@
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="/about/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="pl"
                 href="/pl/about/"
                 />
@@ -319,6 +314,11 @@
                 rel="alternate"
                 hreflang="pt"
                 href="/pt/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/about/"
                 />
     <xhtml:link
                 rel="alternate"

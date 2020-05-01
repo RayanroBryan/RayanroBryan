@@ -6,18 +6,13 @@
     <loc>/ja/categories/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="es"
                 href="/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="/fr/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="/pl/categories/"
+                hreflang="en"
+                href="/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -28,11 +23,6 @@
                 rel="alternate"
                 hreflang="de"
                 href="/de/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -55,18 +45,13 @@
     <loc>/ja/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="es"
                 href="/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="/pl/"
+                hreflang="en"
+                href="/en/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -77,11 +62,6 @@
                 rel="alternate"
                 hreflang="de"
                 href="/de/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -104,18 +84,13 @@
     <loc>/ja/tags/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="es"
                 href="/tags/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="/fr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="/pl/tags/"
+                hreflang="en"
+                href="/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -126,11 +101,6 @@
                 rel="alternate"
                 hreflang="de"
                 href="/de/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/tags/"
                 />
     <xhtml:link
                 rel="alternate"

@@ -9,48 +9,7 @@
 	</sitemap>
 	
 	<sitemap>
-	   	<loc>/fr/sitemap.xml</loc>
-		
-	   	<lastmod>2019-03-11T00:00:00+00:00</lastmod>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>/pl/sitemap.xml</loc>
-		
-	   	<lastmod>2014-04-09T00:00:00+00:00</lastmod>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>/pt/sitemap.xml</loc>
-		
-	   	<lastmod>2014-04-09T00:00:00+00:00</lastmod>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>/de/sitemap.xml</loc>
-		
-	</sitemap>
-	
-	<sitemap>
 	   	<loc>/es/sitemap.xml</loc>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>/zh-cn/sitemap.xml</loc>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>/zh-tw/sitemap.xml</loc>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>/ja/sitemap.xml</loc>
 		
 	</sitemap>
 	

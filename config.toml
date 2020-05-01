@@ -1,13 +1,13 @@
 baseurl                 = "https://example.com/"
 DefaultContentLanguage  = "en"
-title                   = "Hugo Future Imperfect Slim"
+title                   = "Ráyanro Bryan"
 theme = "hugo-future-imperfect-slim"
 preserveTaxonomyNames   = true
-paginate                = 3
-disqusShortname         = ""
+paginate                = 1           #Cantidad de publicaciones que aparecen en la página principal
+disqusShortname         = "Ráyanro"
 googleAnalytics         = ""
 pluralizeListTitles     = false
-disableLanguages        = [""]
+disableLanguages        = ["fr", "pl", "pt", "de", "zh-CN", "zh-TW", "ja"]
 
 [params]
   # Add additional section names to mainSections to include posts from
@@ -30,14 +30,13 @@ disableLanguages        = [""]
   readingTime           = true
   # Sets which Social Share links appear in posts.
   # Options are twitter, facebook, reddit, linkedin, pinterest, email
-  socialShare           = ["twitter", "facebook", "reddit", "linkedin",
-                          "pinterest", "email"]
+  socialShare           = ["twitter", "facebook", "linkedin", "email"] #Sitios para compartir posts de la página (mediante botón en esquina superior derecha)
 
   [params.meta]
     # Sets the meta tag description
-    description         = "A theme by HTML5 UP, ported by Julio Pescador. Slimmed and enhanced by Patrick Collins. Multilingual by StatnMap. Powered by Hugo."
+    description         = "Portafolio virtual y blog personal."
     # Sets the meta tag author
-    author              = "HTML5UP and Hugo"
+    author              = "Ráyanro"
     # If you would like to add more comprehensive favicon support passed root
     # directory favicon.ico, utlize this funtion. It is recommened to use
     # https://realfavicongenerator.net to generate your icons as that is the basis
@@ -50,9 +49,9 @@ disableLanguages        = [""]
 
   [params.header]
     # Sets the navbarTitle that appears in the top left of the navigation bar
-    navbarTitle         = "Future Imperfect"
+    navbarTitle         = "Ráyanro Bryan" # Titulo de la barra de navegacion (esquina superior izquierda)
     # Sets navbarTitle to match the section of the website
-    dynamicTitles       = true
+    dynamicTitles       = false     # En 'false' evita que el titulo de la barra de navegacion cambie por el titulo del menu en el que se este
     searchMenu          = true
     shareMenu           = true
     languageMenu        = true
@@ -60,29 +59,29 @@ disableLanguages        = [""]
   # These are optional params related to the sidebar. They are recommended, but not
   # required for proper functionality. HTML is supported within the params.
   [params.intro]
-    header                = "Hugo Future Imperfect Slim"
-    paragraph             = "Another fine, responsive site template by <a href='http://html5up.net'>HTML5 UP</a>."
-    rssIntro              = true
+    header                = "Ráyanro Bryan Rodríguez Murillo"
+    paragraph             = "Portafolio profesional y blog." #by <a href='http://html5up.net'>HTML5 UP</a>
+    rssIntro              = false #RSS es un sistema para llevar las publicaciones al lector de forma automática
     socialIntro           = true
     # You may not want to display a long intro above content in the
     # single column layout used on smaller screens.
     hideWhenSingleColumn  = false
     # But you may want to always display the intro on the homepage.
-    alwaysOnHomepage      = false
+    alwaysOnHomepage      = true
 
     # This appears at the top of the sidebar above params.intro.header.
     # A width of less than 100px is recommended from a design perspective.
     [params.intro.pic]
-      src                 = "/img/main/logo.jpg"
+      src                 = "/img/main/logo.png"
       # Masks image in a certain shape. Supported are circle, triangle, diamond, and hexagon.
       shape               = "circle"
       width               = ""
-      alt                 = "Hugo Future Imperfect Slim"
+      alt                 = "Ráyanro Bryan Rodríguez Murillo"
 
   [params.sidebar]
-    about               = "test"
+    about               = "" #Seccion en el sidebar donde se puede anotar informacion personal y redireccionar a la seccion "acerca de"
     # Sets the number of recent posts to show in the sidebar. The default value is 5.
-    postAmount          = 5
+    postAmount          = 3
     # set to show or to hide categories in the sidebar
     categories          = true
     # Sets Categories to sort by number of posts instead of alphabetical
@@ -90,9 +89,9 @@ disableLanguages        = [""]
 
   [params.footer]
     # Sets RSS icons to appear on the sidebar with the social media buttons
-    rssFooter           = true
+    rssFooter           = false
     # Sets Social Media icons to appear on the sidebar
-    socialFooter        = true
+    socialFooter        = false
 
   # Disqus will take priority over Staticman (github.com/eduardoboucas/staticman)
   # due to its ease of use. Feel free to check out both and decide which you would
@@ -100,12 +99,12 @@ disableLanguages        = [""]
   [params.staticman]
     # If using GitHub, go to https://github.com/apps/staticman-net
     # If using GitLab, just add the GitLab bot, NO need to hit `/connect/v3/...`
-    enabled             = false
-    api                 = ""  # without trailing slash, defaults to "staticman3.herokuapp.com"
+    enabled             = true
+    api                 = "staticman3.herokuapp.com"  # without trailing slash, defaults to "staticman3.herokuapp.com"
     gitProvider         = "github"  # either "github" or "gitlab"
-    username            = ""
-    repo                = ""
-    branch              = ""
+    username            = "RayanroBryan"
+    repo                = "RayanroBryan"
+    branch              = "master"
 
     [params.staticman.recaptcha]
       # Both keys must be present to enable recaptcha
@@ -116,14 +115,14 @@ disableLanguages        = [""]
   # Sets the menu items in the navigation bar
   # Identifier prepends a Font Awesome icon to the menu item
   [[menu.main]]
-    name              = "Home"
+    name              = "Página principal"
     identifier        = "home"
     url               = "/"
     pre               = "<i class='fa fa-home'></i>"
     weight            = 1
 
   [[menu.main]]
-    name              = "About"
+    name              = "Acerca de"
     identifier        = "about"
     url               = "/about/"
     pre               = "<i class='far fa-id-card'></i>"
@@ -137,14 +136,14 @@ disableLanguages        = [""]
     weight            = 3
 
   [[menu.main]]
-    name              = "Categories"
+    name              = "Tags"
     identifier        = "categories"
     url               = "/categories/"
     pre               = "<i class='fas fa-sitemap'></i>"
     weight            = 5
 
   [[menu.main]]
-    name              = "Contact"
+    name              = "Contacto"
     identifier        = "contact"
     url               = "/contact/"
     pre               = "<i class='far fa-envelope'></i>"
@@ -162,7 +161,7 @@ disableLanguages        = [""]
     LanguageName        = "Français"
     title               = "Hugo Future Imperfect Slim en français"
     description         = "Un thème par HTML5 UP, porté par Julio Pescador. Simplifié et amélioré par Patrick Collins. Multilingue par StatnMap. Propulsé par Hugo."
-    weight              = 2
+    weight              = 3
 
     [[Languages.fr.menu.main]]
       name              = "Accueil"
@@ -204,7 +203,7 @@ disableLanguages        = [""]
     LanguageName        = "Polski"
     title               = "Hugo Future Imperfect Slim po polsku"
     description         = "Motyw HTML5 UP, przeniesiony przez Julio Pescadora i wzbogacony przez Patricka Collinsa. Wielojęzyczny przez StatnMap. Zasilany przez Hugo."
-    weight              = 2
+    weight              = 4
 
     [[Languages.pl.menu.main]]
       name              = "Home"
@@ -246,7 +245,7 @@ disableLanguages        = [""]
     LanguageName        = "Português"
     title               = "Hugo Future Imperfect Slim em português"
     description         = "Um tema do HTML5 UP, portado por Julio Pescadora e reduzido por Patrick Collins. Multilíngue por StatnMap. Feito com Hugo."
-    weight              = 4
+    weight              = 5
 
     [[Languages.pt.menu.main]]
       name              = "Início"
@@ -286,12 +285,12 @@ disableLanguages        = [""]
   [Languages.de]
     LanguageCode        = "de"
     LanguageName        = "Deutsche"
-    weight              = 5
+    weight              = 6
 
   [Languages.es]
     LanguageCode        = "es"
-    LanguageName        = "Española"
-    weight              = 6
+    LanguageName        = "Español"
+    weight              = 2
 
   [Languages.zh-CN]
     LanguageCode        = "zh-CN"
@@ -313,7 +312,7 @@ disableLanguages        = [""]
 # and socialAppearAtBottom.
 [social]
   # Coding Communities
-  github                = "pacollins/hugo-future-imperfect-slim"
+  github                = "RayanroBryan"
   gitlab                = ""
   stackoverflow         = "" # User Number
   bitbucket             = ""
@@ -321,22 +320,22 @@ disableLanguages        = [""]
   codepen               = ""
   # Visual Art Communities
   deviantart            = ""
-  flickr                = "example"
+  flickr                = ""
   behance               = ""
   dribbble              = ""
   # Publishing Communities
   wordpress             = ""
   medium                = ""
   # Professional/Business Oriented Communities
-  linkedin              = "example"
-  linkedin_company      = "examplebusiness"
+  linkedin              = "bryan-rodríguez-murillo-8b9474197"
+  linkedin_company      = ""
   foursquare            = ""
   xing                  = ""
   slideshare            = ""
   # Social Networks
-  facebook              = "example"
+  facebook              = ""
   googleplus            = ""
-  reddit                = "example"
+  reddit                = ""
   quora                 = ""
   youtube               = ""
   vimeo                 = ""
@@ -344,18 +343,18 @@ disableLanguages        = [""]
     # WeChat and QQ need testing.
     wechat              = ""
     qq                  = "" # User ID Number
-  instagram             = "example"
+  instagram             = ""
   tumblr                = ""
-  twitter               = "example"
+  twitter               = "BryanRayanro"
   skype                 = ""
   snapchat              = ""
-  pinterest             = "example"
-  telegram              = "example"
+  pinterest             = ""
+  telegram              = ""
   vine                  = ""
   googlescholar         = ""
   orcid                 = ""
-  researchgate          = "example"
-  keybase               = "example"
-  mastodon              = "example.com/@example"
+  researchgate          = ""
+  keybase               = ""
+  mastodon              = ""
   # Email
-  email                 = "example"
+  email                 = "bryanrodriguezmurillo@outlook.com"
