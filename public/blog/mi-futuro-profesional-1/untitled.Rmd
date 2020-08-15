@@ -1,0 +1,35 @@
+---
+title: "Definiendo mi futuro profesional (Parte 1)"
+author: "Ráyanro Bryan"
+date: "2020-08-16"
+description: ...más que sólo buscar empleo
+images:
+- img/banco_imagenes/img_pensar_ciudad.jpg
+tags:
+- personal
+- trabajo
+- relato
+output: html_document
+---
+
+<style>
+body {
+text-align: justify}
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<center>
+En esta entrada de blog, comparto la primera parte de mi experiencia personal en la búsqueda de empleo para realizar mi proyecto de graduación como futuro Ing. en Producción Industrial. Antes de iniciar dicho proceso, empecé a hacerme una pregunta muy existencial: ¿Cuál es mi visión como futuro profesional? ¿Qué lugar ocupa lo laboral en mi plan de vida?
+</center>
+
+## Dos anecdotas
+
+Antes de entrar en materia, me gustaría iniciar con dos anécdotas que fueron clave para hacer de mi búsqueda laboral algo mucho más existencial. **Recuerdo cierta noche de cuarentena que salí al portón del edificio donde vivo, para tomar aire antes de dormir**. Observé las calles gélidas y vacias de Cartago y noté lo único que se movía al rededor. Bicicletas iban y venían de vez en cuando, con ciclistas jadeantes y tiritantes, cargando esos maletones verdes o amarillos de comida express. Eran demasiados y todos diferentes. Volví a ver la apacible tasa de té en mi mano y pensé *esto es más serio de lo que parece*. Especialistas en medios de comunicación respetables (como Euronews, por citar uno), llaman a esta crisis *"la peor desde la Gran Depresión"*. Y aunque de pronto puede sonar alarmista, aquella noche para mi fue más un llamado a la acción: Tengo que esforzarme más si quiero encontrar un buen trabajo al salir de la U.
+
+hola
+
+hscjsdkbc
+

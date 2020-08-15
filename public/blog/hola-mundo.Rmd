@@ -1,0 +1,65 @@
+---
+title: "Definiendo mi futuro profesional (Parte 1)"
+author: "Ráyanro Bryan"
+date: "2020-08-15"
+description: ...más que sólo buscar empleo
+images:
+- img/banco_imagenes/img_pensar_ciudad.jpg
+tags:
+- personal
+- trabajo
+- relato
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+En esta entrada de blog, comparto la primera parte de mi experiencia personal en la búsqueda de empleo para realizar mi proyecto de graduación como futuro Ing. en Producción Industrial. Antes de iniciar dicho proceso, empecé a hacerme una pregunta muy existencial: ¿Cuál es mi visión como futuro profesional? ¿Qué lugar ocupa lo laboral en mi plan de vida?
+
+## Dos anecdotas
+
+Antes de entrar en materia, me gustaría iniciar con dos anécdotas que fueron clave para hacer de mi búsqueda laboral algo mucho más existencial.
+
+**Recuerdo cierta noche de cuarentena que salí al portón del edificio donde vivo, para tomar aire antes de dormir**. Observé las calles gélidas y vacias de Cartago y noté lo único que se movía al rededor. Bicicletas iban y venían de vez en cuando, con ciclistas jadeantes y tiritantes, cargando esos maletones verdes o amarillos de comida express. Eran demasiados y todos diferentes. Volví a ver la apacible tasa de té en mi mano y pensé *esto es más serio de lo que parece*. Especialistas en medios de comunicación respetables (como Euronews, por citar uno), llaman a esta crisis *"la peor desde la Gran Depresión"*. Y aunque de pronto puede sonar alarmista, aquella noche para mi fue más un llamado a la acción: Tengo que esforzarme más si quiero encontrar un buen trabajo al salir de la U.
+
+No se trata sólo de encontrar empleo durante esta crisis (que ya es bastante), sino que satisfacer espectativas y metas va a ser más dificil todavía. Pensé en todo el tiempo y los recursos desperdiciados para evitar hayarme en una situación de necesidad... por que no todo aquel que tiene pocos recursos es necesitado, ni todo aquel al que le sobran es feliz.
+
+Hay una canción que dice...
+> Caundo uno tiene sed; pero, el agua no está cerca (...). ¿Qué hacer? ¿Tu lo sabes?
+> **Jarabe de palo**.
+
+Muchas veces yo he olvidado la respuesta.
+
+![](do_not_hug.png)
+
+Y estando ahí afuera, pensando en todo esto, **recordé cierta charla a la que asistí -con mucho desdén- sobre planes de vida y cómo alcanzar tus sueños**. No me gustan las charlas motivadoras, siento que me quieren estafar o manipular; pero, en aquella ocasión el expositor inició contando una historia que captó por completo mi atención: 
+
+*Suponga que usted quiere vacaciones. No sabe a donde quiere ir exactamente, pero no le vendría mal hayarse caminando por un sendero en Monteverde o tomando el sol en una playa de Limón. Así que decide llamar a un taxi y al montarse NO le indica al chofer a dónde quiere ir (usted no lo sabe, en realidad), sólo le dice "conduzca". El taxista, para cobrar un buen monto, conduce muy lejos. Usted se pone ansioso, el taxi avanza y avanza, pero no llega a ningún sitio como al que usted cree que quisiera llegar. El taxi se detiene en cierto lugar, usted se baja y al no estar satisfecho con su destino, se monta en otro taxi y le pide de nuevo "conduzca". El proceso se repite muchas veces: usted se monta en un taxi ramdom que lo lleva a un sitio ramdom y usted se frustra cada vez más de no llegar a un sitio como al que usted quisiera. Se está quedando sin dinero y eso lo enoja aún más. ¿Cómo es posible invertir tanto en algo y no lograr lo que se quiere? Al bajarse del último taxi, muy molesto, alza su mirada al cielo y grita desconsolado: ¡¿Por qué no llegué a donde quería ir?!* 
+
+*Fin. ¿Tiene sentido su frustración?*
+
+(poner gif taxi)
+
+## ¿Cuál es mi visión como profesional?
+
+Aquella charla ocurrió hace más o menos un año. Empecé a tomar conciencia de que pronto estaría buscando empresa para realizar mi proyecto de graduación como licenciado, donde -muy probablemente- terminaría trabajando hasta nuevo aviso. Como estudiante de Ingeniería Industrial, siempre se me ha dicho que nuestras tasas de empleabilidad son muy altas y que, cuando menos, alguna empresa de "perdida de la mano de Cristo", entre el Coyol y Heredia, tendría un puesto para mí. Como estudiante, siempre tuve una idea muy clara de ese proceso de búsqueda de empleo: debía aplicar a cuanta empresa ofreciera un puesto de Ing. Industrial, a ver cuál "picaba". Muy probablemente, sería una empresa de dispositivos médicos, donde trabajan una gran cantidad de colegas míos... quizá la mayoría.
+
+A este punto, se debería notar la similitud entre el "típico" proceso de búsqueda de empleo y la historía de los taxis. Ir a tocar puertas a cualquier lugar y buscar cualquier empleo, esperando satisfacción laboral, es un error. Si yo deseo ser feliz en este aspecto de mi vida, debería, pues, crear mi propia definición de lo que es un "buen" empleo y ponerme a trabajar para conseguirlo, no sea que desperdicie el recurso más valioso que tengo: mi tiempo.
+
+### Lo que quice hacer
+
+Me hacía falta una visión. Tanto estar concentrado en la U, un semestre tras otro, había olvidado la razón por la que estaba ahí: construirme un futuro feliz. ¿Qué iba a hacer entonces?
+
+Naturalmente, **lo primero que hice fue frustrarme por no saber, de buenas a primeras, qué quería hacer con mi vida luego de la U** -no es de extrañar, soy un millenial (emogi)-. Luego, pretendiendo responder mis dudas, **terminé perdiendo el tiempo en pensamientos autocompasivos**: *Yo no soy de la GAM, yo vengo de largo y allá no le enseñan a uno a soñar ni pensar en el futuro, ni mis padres ni en el colegio me hablaron de esto nunca, y yo tengo todas estas desventajas en relación a mis compañeros, cómo voy a buscar un buen trabajo si no tengo "a" o "b" ni soy "c" o "d"*.
+
+Nada nuevo de bajo del sol. ¿Quién no ha pensado cosas similares, según su contexto? Por fortuna para mí, he conocido a algunas personas que me han mostrado que se puede pensar y actuar diferente al promedio. Gracias a esos ejemplos, decidí responder esas preguntas existenciales, en lugar de lamentarme por la incertidumbre y la ansiedad que me generaban (como normalmente hubiera hecho).
+
+### Lo que hice
+
+Esa fue la primera acción: **buscar modelos a seguir o personas que me ayudaran** con mi sana insatisfacción de estar mejor. En esa línea, **busqué ayuda vocacional en la U**, asistí a sesiones y apliqué herramientas para aprender sobre **mis intereses, habilidades y mi personalidad**, para saber cuáles áreas de mi carrera eran más afines a mí (llegando a cuestionar incluso la carrera en sí -emogi-).
+
+El resultado: soy una persona afín a las ciencias de la computación, a la investigación y a la matemática, soy detallista y afín a la comunicación escrita. ¡Ahora podía añadir un par de habilidades blandas a mi currículum! (Nótese la ironía). En definitiva, había mucho más por hacer. Luego de conocer *el estado de las cosas*, todacaba tomar acciones.
+
+(Poner aquí enlaces a recursos en línea para ayuda vocacional: https://nabu.cr/ y http://infoues.conare.ac.cr/instrumentovocacional y http://www.miguiavocacional.com/intro/)

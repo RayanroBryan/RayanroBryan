@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>datascience on Ráyanro Bryan</title>
+    <link>/tags/datascience/</link>
+    <description>Recent content in datascience on Ráyanro Bryan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Thu, 06 Aug 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/datascience/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Buscando empleo durante una pandemia</title>
+      <link>/blog/markdown-syntax/</link>
+      <pubDate>Thu, 06 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/markdown-syntax/</guid>
+      <description>&lt;p&gt;En esta entrada de blog, comparto mi experiencia personal en la búsqueda de empleo para realizar mi proyecto de graduación como futuro Ing. en Producción Industrial. Buscaba un trabajo en un tema muy particular, del que estoy muy apasionado; sin embargo, la pandemia por el coronavirus y mis temores de novato siempre me tentaron a desistir o a tomar decisiones erroneas. ¿En qué resultó esta montaña rusa personal?&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
