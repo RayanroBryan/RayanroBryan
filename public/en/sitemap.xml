@@ -13,6 +13,21 @@
   </url>
   
   <url>
+    <loc>/</loc>
+    <lastmod>2020-08-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
     <lastmod>2020-08-15T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -43,17 +58,17 @@
   </url>
   
   <url>
+    <loc>/blog/002_portafolio-de-experiencias-y-proyectos/portafolio-de-experiencias-y-proyectos/</loc>
+    <lastmod>2020-08-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/personal/</loc>
     <lastmod>2020-08-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/categories/portafolio/</loc>
-    <lastmod>2020-08-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/blog/002_portafolio-de-experiencias-y-proyectos/portafolio-de-experiencias-y-proyectos/</loc>
     <lastmod>2020-08-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -65,21 +80,6 @@
   <url>
     <loc>/tags/relatos/</loc>
     <lastmod>2020-08-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2020-08-15T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/"
-                />
   </url>
   
   <url>
