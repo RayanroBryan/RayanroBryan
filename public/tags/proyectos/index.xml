@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>proyectos on Ráyanro Bryan</title>
+    <link>/tags/proyectos/</link>
+    <description>Recent content in proyectos on Ráyanro Bryan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sat, 15 Aug 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/proyectos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Portafolio de experiencias y proyectos</title>
+      <link>/blog/002_portafolio-de-experiencias-y-proyectos/portafolio-de-experiencias-y-proyectos/</link>
+      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/002_portafolio-de-experiencias-y-proyectos/portafolio-de-experiencias-y-proyectos/</guid>
+      <description>En honor a todos los momentos que viví y a las personas que fueron participes, a continuación cito mis experiencias más destacables en la U:
+2016-2017: Fui parte de la Junta Directiva de la Asociación de Estudiantes de Ingeniería en Producción Industrial2017: Dirigí y produje un vídeo de conciencia social sobre la comunidad LGBT, titulado ¿Quién soy?, en colaboración con las ONGs Hivos y el Frente por los Derechos Igualitarios (facebook.</description>
+    </item>
+    
+  </channel>
+</rss>

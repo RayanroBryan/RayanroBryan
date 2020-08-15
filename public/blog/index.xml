@@ -5,58 +5,30 @@
     <link>/blog/</link>
     <description>Recent content in Blog on Ráyanro Bryan</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <language>es</language>
+    <lastBuildDate>Sat, 15 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>/blog/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <title>Definiendo mi futuro profesional (Parte 1)</title>
+      <link>/blog/001_mi-futuro-profesional-1/mi-futuro-profesional-1/</link>
+      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/blog/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+      <guid>/blog/001_mi-futuro-profesional-1/mi-futuro-profesional-1/</guid>
+      <description>body {text-align: justify}En esta entrada de blog, comparto la primera parte de mi experiencia personal en la búsqueda de empleo para realizar mi proyecto de graduación como futuro Ing. en Producción Industrial. Antes de iniciar dicho proceso, empecé a hacerme una pregunta muy existencial: ¿Cuál es mi visión como futuro profesional? ¿Qué lugar ocupa lo laboral en mi plan de vida?
+El origenAntes de entrar en materia, me gustaría iniciar con una anécdota que inició mi esta existencial inquietud por mi futuro profesional.</description>
     </item>
     
     <item>
-      <title>Rich Content</title>
-      <link>/blog/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      <title>Portafolio de experiencias y proyectos</title>
+      <link>/blog/002_portafolio-de-experiencias-y-proyectos/portafolio-de-experiencias-y-proyectos/</link>
+      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/blog/rich-content/</guid>
-      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Placeholder Text</title>
-      <link>/blog/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de
-pectora summo.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Emoji Support</title>
-      <link>/blog/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Hello R Markdown</title>
-      <link>/blog/2015-07-23-r-rmarkdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/blog/2015-07-23-r-rmarkdown/</guid>
-      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+      <guid>/blog/002_portafolio-de-experiencias-y-proyectos/portafolio-de-experiencias-y-proyectos/</guid>
+      <description>En honor a todos los momentos que viví y a las personas que fueron participes, a continuación cito mis experiencias más destacables en la U:
+2016-2017: Fui parte de la Junta Directiva de la Asociación de Estudiantes de Ingeniería en Producción Industrial2017: Dirigí y produje un vídeo de conciencia social sobre la comunidad LGBT, titulado ¿Quién soy?, en colaboración con las ONGs Hivos y el Frente por los Derechos Igualitarios (facebook.</description>
     </item>
     
   </channel>

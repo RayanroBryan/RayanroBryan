@@ -3,11 +3,12 @@ DefaultContentLanguage  = "en"
 title                   = "Ráyanro Bryan"
 theme = "hugo-future-imperfect-slim"
 preserveTaxonomyNames   = true
-paginate                = 1           #Cantidad de publicaciones que aparecen en la página principal
+paginate                = 4           #Cantidad de publicaciones que aparecen en la página principal
 disqusShortname         = "Ráyanro"
 googleAnalytics         = ""
 pluralizeListTitles     = false
 disableLanguages        = ["fr", "pl", "pt", "de", "zh-CN", "zh-TW", "ja"]
+enableEmoji             = true
 
 [params]
   # Add additional section names to mainSections to include posts from
@@ -54,7 +55,7 @@ disableLanguages        = ["fr", "pl", "pt", "de", "zh-CN", "zh-TW", "ja"]
     dynamicTitles       = false     # En 'false' evita que el titulo de la barra de navegacion cambie por el titulo del menu en el que se este
     searchMenu          = true
     shareMenu           = true
-    languageMenu        = true
+    languageMenu        = false
 
   # These are optional params related to the sidebar. They are recommended, but not
   # required for proper functionality. HTML is supported within the params.
@@ -142,18 +143,18 @@ disableLanguages        = ["fr", "pl", "pt", "de", "zh-CN", "zh-TW", "ja"]
     pre               = "<i class='fas fa-sitemap'></i>"
     weight            = 5
 
-  [[menu.main]]
-    name              = "Contacto"
-    identifier        = "contact"
-    url               = "/contact/"
-    pre               = "<i class='far fa-envelope'></i>"
-    weight            = 6
+  #[[menu.main]]
+  #  name              = "Contacto"
+  #  identifier        = "contact"
+  #  url               = "/contact/"
+  #  pre               = "<i class='far fa-envelope'></i>"
+  #  weight            = 6
 
 [Languages]
   # Each language has its own menu.
   [Languages.en]
-    LanguageCode        = "en"
-    LanguageName        = "English"
+    LanguageCode        = "es"
+    LanguageName        = "Español"
     weight              = 1
 
   [Languages.fr]
@@ -288,8 +289,8 @@ disableLanguages        = ["fr", "pl", "pt", "de", "zh-CN", "zh-TW", "ja"]
     weight              = 6
 
   [Languages.es]
-    LanguageCode        = "es"
-    LanguageName        = "Español"
+    LanguageCode        = "en"
+    LanguageName        = "English"
     weight              = 2
 
   [Languages.zh-CN]
@@ -357,4 +358,4 @@ disableLanguages        = ["fr", "pl", "pt", "de", "zh-CN", "zh-TW", "ja"]
   keybase               = ""
   mastodon              = ""
   # Email
-  email                 = "bryanrodriguezmurillo@outlook.com"
+  email                 = "rayanro@estudiantec.cr"

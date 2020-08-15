@@ -1,0 +1,96 @@
+---
+title: "Definiendo mi futuro profesional (Parte 1)"
+author: "Ráyanro Bryan"
+date: "2020-08-15"
+description: Una tarea sorprendentemente existencial
+images:
+- img/banco_imagenes/img_pensar_ciudad.jpg
+tags:
+- personal
+- laboral
+- relatos
+output: html_document
+categories: ["Blog"]
+---
+
+<style>
+body {
+text-align: justify}
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tweetrmd)
+```
+
+En esta entrada de blog, comparto la primera parte de mi experiencia personal en la búsqueda de empleo para realizar mi proyecto de graduación como futuro Ing. en Producción Industrial. Antes de iniciar dicho proceso, empecé a hacerme una pregunta muy existencial: ¿Cuál es mi visión como futuro profesional? ¿Qué lugar ocupa lo laboral en mi plan de vida?
+
+## El origen
+
+Antes de entrar en materia, me gustaría iniciar con una anécdota que inició mi esta existencial inquietud por mi futuro profesional.
+
+**Recuerdo una vez que asistí a una charla sobre Proyectos de Vida y cómo alcanzar tus sueños, cierto día de U**. Lo recuerdo porque fuí con mucha pereza. No me gustan las charlas motivadoras, siento que me quieren vender algo :sweat:. No sabía yo que aquella charla marcaría el comienzo de cambios importantes en mi vida. El expositor inició contando el siguiente relato: 
+
+*Suponga que usted quiere irse de vacaciones. No sabe a donde quiere ir exactamente, pero no le vendría mal hayarse caminando por un sendero en Monteverde o tomando el sol en una playa de Limón. Así que decide llamar a un taxi y al montarse NO le indica al chofer a dónde quiere ir (usted no lo sabe, en realidad), sólo le dice "conduzca". El taxista, para cobrar un buen monto, conduce muy lejos. Usted se pone ansioso, el taxi avanza y avanza, pero no llega a ningún sitio como al que usted cree que quisiera llegar. El taxi se detiene en cierto lugar, usted se baja y al no estar satisfecho con su destino, se monta en otro taxi y le pide de nuevo "conduzca". El proceso se repite muchas veces: usted se monta en un taxi ramdom que lo lleva a un sitio ramdom y usted se frustra cada vez más de no llegar a un sitio como al que usted quisiera. Se está quedando sin dinero y eso lo enoja aún más. ¿Cómo es posible invertir tanto en algo y no lograr lo que se quiere? Al bajarse del último taxi, muy molesto, alza su mirada al cielo y grita desconsolado: ¡¿Por qué no llegué a donde quería ir?!* 
+
+*Fin. ¿Tiene sentido su frustración?*
+
+<center>
+
+![](gif_taxi.gif)
+
+</center>
+
+## ¿Cuál es mi visión como profesional?
+
+Aquella charla ocurrió hace más o menos dos años, **mientras empezaba a preocuparme de que pronto tendría que buscar empleo para realizar mi proyecto de graduación como licenciado**, donde -muy probablemente- terminaría trabajando hasta nuevo aviso. Como estudiante de Ingeniería Industrial, siempre se me ha dicho que, cuando menos, alguna empresa de "perdida de la mano de Cristo", entre el Coyol y Heredia, tendría un puesto para mí. Siempre tuve claro cual era el proceso de búsqueda de empleo de los estudiantes salientes: se debía aplicar a cuanta empresa ofreciera un puesto de Ing. Industrial, a ver cuál "picaba".
+
+A este punto, se debería notar la similitud entre el "típico" proceso de búsqueda de empleo y la historía de los taxis. Ir a tocar puertas a cualquier lugar y buscar cualquier empleo, esperando satisfacción laboral, es un error. **Si yo deseaba ser feliz en este aspecto de mi vida, debía crear mi propia definición de lo que era "buen" empleo y ponerme a trabajar para conseguirlo**.
+
+### Lo que quice hacer
+
+> Me hacía falta una visión. Tanto estar concentrado en la U, un semestre tras otro, había olvidado la razón por la que estaba ahí: construirme un futuro. ¿Qué iba a hacer entonces?
+
+Naturalmente, **lo primero que hice fue frustrarme por no saber, de buenas a primeras, qué quería hacer con mi vida luego de la U** -no es de extrañar, soy un millenial :sunglasses::+1:-. Luego, pretendiendo responder mis dudas, **terminé perdiendo el tiempo en pensamientos autocompasivos**: *Yo no soy de la GAM, yo vengo de largo, allá no le enseñan a uno a soñar ni pensar en el futuro, mis padres no me hablaron de esto, en el colegio tampoco, yo tengo muchas desventajas, cómo voy a buscar un buen trabajo si me falta "esto" y "aquello"*.
+
+El tema de la autocompasión y el perfil psicológico millenal son temas para otra conversación :sweat_smile:... más allá de eso, **empecé a anhelar *tomar el control* de mi vida**, pensar en un plan de vida para mi futuro, trazar yo el camino y seguirlo; llegué a la conclusión de que hacer esto es más inteligente (e incluso divetido) que estar evadiendo este tipo de dudas existenciales o lamentándose por la incertidumbre y la ansiedad que generan.
+
+### Lo que hice
+
+Esa fue la primera acción: **escribir mi propio Proyecto de Vida**. Para ello, busqué ayuda en programas de atención psicológica de mi universidad, quienes terminaron de convencerme de lo importante que es tomar vos mismo el volante, antes que estar montándose de taxi en taxi, frustrado de no llegar a tu destino.
+
+De entre lo más aprendizajes más valiosos que recibí, aprendí a cómo diseñar un sano plan de vida, al corto, mediano y largo plazo, en aras de la realización personal. **[Por medio de este enlace](https://www.universidadescr.com/blog/proyectodevida/)**, dejo una página web con información muy similar a la que yo recibí.
+
+En esa línea, **también consulté por ayuda vocacional en estos programas de la U**, asistí a sesiones y apliqué herramientas para aprender sobre **mis intereses, habilidades y mi personalidad vocacional** (llegando a cuestionar incluso la carrera en sí :astonished:). 
+
+> ##### Test vocacionales bueno y serios 
+> * [Test NABU.cr](https://nabu.cr/)
+> * [Test de CONARE](http://infoues.conare.ac.cr/instrumentovocacional)
+> * [Test del Centro de Orientación Vocacional y
+Apoyo Educativo de Cartago](http://www.miguiavocacional.com/intro/)
+
+Tenía una demostrada destreza por las ciencias de la computación (algo bastante particular en mi gremio), una vena investigativa interesante y afinidad por las matemáticas "bravas", traído desde pequeño. Que lo anterior no parezca engreimiento, pues -por extraordinario que parezca- **habilidades como estas sin habilidades blandas** que te permitan aterrizar las ideas y comunicarlas **pueden no servir de mucho**. Ahora **necesitaba participar en "algo" que fuera a fin a mis preferencias, que me diera perspectiva sobre mi futuro profesional y, de paso, me diera la oportunidad de practicar dichas habilidades blandas**. 
+
+Así, una de las acciones más importantes que tomé en todo este proceso fue **bajar considerablemente mi carga académica** y **dejar de aceptar compromisos o responsabilidades** que no me permitieran concentrar mi tiempo y esfuerzo en mis objetivos personales. Esta decisión fue radical. Implicó extender mi estadía en la universidad, separarme de algunos amigos y grupos sociales e, incluso, **dejar de tomarme la U tan en serio** (wow... eso último es un tema denso :open_mouth:... anotado para otro blog :pencil2:). 
+
+Ya tenía la mentalidad y el tiempo para encontrar "eso" que diera luz a mi visión profesional... solo faltaba que la vida hiciera su parte. Entonces **un amigo muy querido, que llevaba tiempo hablando sobre algo llamado *Ciencia de datos*, regresó de un intercambio en el extranjero con un proyecto disruptivo**: quería crear un grupo de interés para desarrollar proyectos y *bulla* en torno a la Ciencia de Datos: un mejunje de **conocimientos avanzados en programación**, **estadística-matemática** e **investigación**. *Si tiene cara de mono, cuerpo de mono y pelo de mono... es un mono*, el mono que estaba buscando :hear_no_evil::heart_eyes:.
+
+Había llegado la hora de *bretear*. Tenía que meterme de lleno en esto de la Ciencia de Datos para saber si era lo mío. Para este punto, estaba iniciando el 2020, se aproximaba mi proyecto de graduación. Era ahora o nunca.
+
+**El que anda con lobos a ahuyar aprende**, dice un viejo refrán... y este es mi último consejo del presente blog. Al integrarme al proyecto de mi amigo, terminé trabajando *codo a codo* con personas muy talentosas, lo cual fue un gran reto, pero también un aprendizaje fantástico. Llegó la pandemia y decidimos aprovechar el tiempo libre para crear una página web sobre Ciencia de Datos, desarrollar una aplicación y hasta terminamos aceptando una consultoría que ahora está en mi currículum. Me sumergí en este nuevo mundo, bretié de sol a sol mientras otros veían Netflix y me alejé de personas y proyectos que NO me aportaban para juntarme con los lobos... Y al fin pude escribir mi visión profesional.
+
+<center>
+---
+
+```{r, echo = FALSE}
+tweet_embed("https://twitter.com/BryanRayanro/status/1248789513922654210")
+```
+
+---
+</center>
+
+## ¿El fin?
+
+Las anteriores anecdotas ocurrieron a inicios de la pandemia. Cuando llegó mi momento de buscar empleo, me sentía preparado y optimista. Por que, claro, si te esfuerzas, estudias, te planteas una visión, etcétera, etcétera, todo siempre sale bien, ¿verdad? Prefiero guardame la "montaña rusa" de emociones que responde esta pregunta para un segundo post.
+
+Gracias por leer mi primer blog. **Si deseas enviarme comentarios, no dudes en hacerlo por medio de mis medios de contacto**. ¡Nos leemos pronto!
