@@ -1,6 +1,6 @@
-baseurl                 = "https://example.com/"
+baseurl                 = "https://bryanrodriguezmurillo.com/"
 DefaultContentLanguage  = "en"
-title                   = "Ráyanro Bryan"
+title                   = "Bryan Rodríguez M"
 theme = "hugo-future-imperfect-slim"
 preserveTaxonomyNames   = true
 paginate                = 4           #Cantidad de publicaciones que aparecen en la página principal
@@ -37,7 +37,7 @@ enableEmoji             = true
     # Sets the meta tag description
     description         = "Portafolio virtual y blog personal."
     # Sets the meta tag author
-    author              = "Ráyanro"
+    author              = "Bryan Rodríguez M"
     # If you would like to add more comprehensive favicon support passed root
     # directory favicon.ico, utlize this funtion. It is recommened to use
     # https://realfavicongenerator.net to generate your icons as that is the basis
@@ -50,7 +50,7 @@ enableEmoji             = true
 
   [params.header]
     # Sets the navbarTitle that appears in the top left of the navigation bar
-    navbarTitle         = "Ráyanro Bryan" # Titulo de la barra de navegacion (esquina superior izquierda)
+    navbarTitle         = "Bryan Rodríguez" # Titulo de la barra de navegacion (esquina superior izquierda)
     # Sets navbarTitle to match the section of the website
     dynamicTitles       = false     # En 'false' evita que el titulo de la barra de navegacion cambie por el titulo del menu en el que se este
     searchMenu          = true

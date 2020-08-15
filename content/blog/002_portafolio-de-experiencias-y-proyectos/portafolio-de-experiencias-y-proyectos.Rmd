@@ -1,10 +1,10 @@
 ---
-title: "Portafolio de experiencias y proyectos"
+title: "Mis experiencias y proyectos en la universidad"
 author: "Bryan Rodríguez-Murillo"
 date: "2020-08-15"
-description: "Un repaso a mis experiencias más destacables en la universidad"
+description: "Un repaso de lo más destacado"
 images:
-
+- img/banco_imagenes/lapices.jpg
 tags:
 - proyectos
 - CV
@@ -13,19 +13,29 @@ output: html_document
 categories: ["Portafolio"]
 ---
 
+<style>
+body {
+text-align: justify}
+</style>
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-#- img/banco_imagenes/img_pensar_ciudad.jpg
+#
 ```
 
-En honor a todos los momentos que viví y a las personas que fueron participes, a continuación cito mis experiencias más destacables en la U:
+Durante mi estudios en el Instituto Tecnológico de Costa Rica, he tenido la oportunidad de participar en diversos proyectos y experiencias que han marcado muy positivamente mi vida, de cara a mi futuro profesional.
 
-* **2016-2017**: Fui parte de la Junta Directiva de la *Asociación de Estudiantes de Ingeniería en Producción Industrial*
-* **2017**: Dirigí y produje un vídeo de conciencia social sobre la comunidad LGBT, titulado *¿Quién soy?*, en colaboración con las ONGs *Hivos* y el *Frente por los Derechos Igualitarios* (facebook.com/aepi.tec/videos/1762870540417386)
-* **2017-2019**: Brindé servicios profesionales a diferentes de departamentos del Instituto Tecnológico como asistente estudiantil: la *Oficina de Equidad de Género*, la *Vicerrectoría de Administración* y la *Maestría en Sistemas Modernos de Manufactura de Manufactura*.
-* **2018**: Trabajé como pasante para la empresa de TI y salud HuliHealth, desarrollando reportes para los clientes corporativos de la empresa, mediante Excel y Google Data Studio.
-* **2018-2019**: Desarrollé un software de control de costos para la *Editorial Tecnológico*, por medio de programación en VBA.
-* **2018-2019**: Fui parte de la colectiva institucional *Diversidad TEC*, cuyo fin es generar conciencia sobre temas de diversidad sexual y de género en el campus de Cartago.
-* **2020**: Fuí miembro fundador de *Grupo DABIA*, un grupo de interés en ciencia de datos, y junto a ellos desarrollé la aplicación *"Rastreador del COVID19 de Costa Rica"*, que registra y resume datos del Ministerio de Salud sobre la epidemia en nuestro país, mediante R y Shiny (grupodabia.shinyapps.io/rastreador-covid-19-costa-rica
-).
-* **2020**: Bridé a una consultaría a la empresa Digital Aceleration Partner y al Programa de Gestión Centroamericana de la Roya del Café (PROCAGICA), junto a mis amigos de DABIA, para desarrollar un módulo estadístico sobre el riesgo de la Roya, mediante R y Shiny.
+En honor a todos los momentos que viví y a las personas que fueron participes, a continuación, enlisto las experiencias más destacables de mi etapa universitaria, en orden cronológico:
+
+> * **2016-2017**: Fui parte de la Junta Directiva de la **[Asociación de Estudiantes de Ingeniería en Producción Industrial](https://www.instagram.com/aepitec/)**
+> * **2017**: Dirigí y produje un vídeo de conciencia social sobre la comunidad LGBT, titulado **[¿Quién soy? -enlace al vídeo-](facebook.com/aepi.tec/videos/1762870540417386)**, en colaboración con las ONGs *Hivos* y el *Frente por los Derechos Igualitarios*
+> * **2017-2019**: Brindé servicios profesionales a diferentes de departamentos del Instituto Tecnológico como asistente estudiantil: la **Oficina de Equidad de Género**, la **Vicerrectoría de Administración** y la **Maestría en Sistemas Modernos de Manufactura de Manufactura**.
+> * **2018**: Trabajé como pasante para la empresa de TI y salud **[HuliHealth](https://www.hulihealth.com/es/about)**, desarrollando reportes para los clientes corporativos de la empresa, mediante Excel y Google Data Studio.
+> * **2018-2019**: Desarrollé un software de control de costos para la **Editorial Tecnológico**, por medio de programación en VBA.
+> * **2018-2019**: Fui parte de la colectiva institucional **[Diversidad TEC](https://www.instagram.com/diversidad_tec/)**, cuyo fin es generar conciencia sobre temas de diversidad sexual y de género en el campus de Cartago.
+> * **2020**: Fui miembro fundador de **[Grupo DABIA](https://www.grupodabia.com/)**, un grupo de interés en ciencia de datos, y junto a ellos desarrollé la aplicación **[Rastreador del COVID19 de Costa Rica](https://grupodabia.shinyapps.io/rastreador-covid-19-costa-rica/_w_07178ed0/)**, que registra y resume datos del Ministerio de Salud sobre la epidemia en nuestro país, mediante R y Shiny.
+> * **2020**: Bridé a una consultaría a la empresa **[Digital Aceleration Partner](https://dap.rocks/)** y al Programa de Gestión Centroamericana de la Roya del Café (**[PROCAGICA](https://www.procagica-rrat.net/)**), junto a mis compañeros de DABIA, para desarrollar un módulo estadístico sobre el riesgo de la Roya, mediante R y Shiny.
+
+Para más información sobre mis experiencias laborales en la anterior lista, consultar mi cuenta en [Linkedin](https://www.linkedin.com/in/bryan-rodr%C3%ADguez-murillo-8b9474197/).
+
+El orgullo y demás sentimientos positivos que se desprenden de esta lista los dedico a todas las personas que me han acompañado en este proceso tan importante. **De todo corazón, gracias**.
