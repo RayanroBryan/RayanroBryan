@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Bryan Rodríguez M</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sat, 15 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ciencia de datos</title>
+      <link>/tags/ciencia-de-datos/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ciencia-de-datos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>estadística</title>
+      <link>/tags/estad%C3%ADstica/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/estad%C3%ADstica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>laboral</title>
+      <link>/tags/laboral/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/laboral/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>CV</title>
@@ -17,15 +44,6 @@
       <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/cv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>laboral</title>
-      <link>/tags/laboral/</link>
-      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/laboral/</guid>
       <description></description>
     </item>
     
