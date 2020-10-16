@@ -6,10 +6,20 @@
     <description>Recent content on Bryan Rodríguez M</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sat, 15 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tres consideraciones importantes sobre el Valor P</title>
+      <link>/blog/003_tres-consideraciones-sobre-valor-p/tres-consideraciones-sobre-valor-p/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/003_tres-consideraciones-sobre-valor-p/tres-consideraciones-sobre-valor-p/</guid>
+      <description>body {text-align: justify}Desde que Fisher propusiera el test de significancia en 1925, el Valor P se convirtió en la medida de decisión más ampliamente usada en la estadística inferencial; son incontables los trabajos científicos que basan sus conclusiones en esta herramienta estadística, mientras la academia a veces enseña su uso sin considerar sus alternativas… o sus riesgos.
+Por ello, me sorprendí mucho al enterarme que, en efecto, el Valor P no es siempre la vía deductiva más recomendable e requiere tomar en cuenta varias consideraciones importantes que no se enseñan en las clases de estadística, consideraciones que han llevado a retractarse a más de un científico -dicen las malas lenguas 👅-.</description>
+    </item>
     
     <item>
       <title>Definiendo mi futuro profesional (Parte 1)</title>

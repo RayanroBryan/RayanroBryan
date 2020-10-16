@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>reflexiones on Bryan Rodríguez M</title>
+    <link>/tags/reflexiones/</link>
+    <description>Recent content in reflexiones on Bryan Rodríguez M</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sat, 26 Sep 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/reflexiones/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>La historia que decidio contarme</title>
+      <link>/blog/003_blog-la-historia-que-decido-contarme/blog-la-historia-que-decido-contarme/</link>
+      <pubDate>Sat, 26 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/003_blog-la-historia-que-decido-contarme/blog-la-historia-que-decido-contarme/</guid>
+      <description>body {text-align: justify}Desde que Fisher propusiera el test de significancia en 1925, el Valor P se convirtió en la medida de decisión más ampliamente usada en la estadística inferencial; son incontables los trabajos científicos que basan sus conclusiones en esta herramienta estadística, mientras la academia a veces enseña su uso sin considerar sus alternativas… o sus riesgos.
+Por ello, me sorprendí mucho al enterarme que, en efecto, el Valor P no es siempre la vía deductiva más recomendable e requiere tomar en cuenta varias consideraciones importantes que no se enseñan en las clases de estadística, consideraciones que han llevado a retractarse a más de un científico -dicen las malas lenguas-.</description>
+    </item>
+    
+  </channel>
+</rss>

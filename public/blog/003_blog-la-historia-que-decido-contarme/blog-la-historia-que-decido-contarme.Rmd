@@ -1,0 +1,143 @@
+---
+title: "Tres consideraciones importantes sobre el Valor P"
+author: "Bryan Rodríguez-Murillo"
+date: "2020-10-15"
+description: 
+images:
+- img\banco_imagenes\p-value.png
+tags:
+- ciencia de datos
+- laboral
+- estadística
+output: html_document
+categories: ["Blog"]
+---
+
+<style>
+body {
+text-align: justify}
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+Desde que Fisher propusiera el test de significancia en 1925, el Valor P se convirtió en la medida de decisión más ampliamente usada en la estadística inferencial; son incontables los trabajos científicos que basan sus conclusiones en esta herramienta estadística, mientras la academia a veces enseña su uso **sin considerar sus alternativas… o sus riesgos**.
+
+Por ello, me sorprendí mucho al enterarme que, en efecto, el Valor P no es siempre la vía deductiva más recomendable e requiere tomar en cuenta varias consideraciones importantes que no se enseñan en las clases de estadística, consideraciones que han llevado a retractarse a más de un científico -dicen las malas lenguas :tongue:-. 
+
+Muchos de mis compañeros del Tec hoy trabajan en empresas donde inferencia estadística es crucial, como las de dispositivos médicos o electrónicos; con la cual resulta más que evidente la importancia de las siguientes *3 consideraciones sobre el Valor P*.
+
+## 1. ¿Qué es y qué NO es el Valor P?
+
+Al realizar deducciones estadísticas NO hay escapatoria: debemos tener muy claros los conceptos -por aburrido o difícil que resulte- si no queremos caer en interpretaciones engañosas. Para colmo, con el Valor P se afirma que "hay mucha confusión entre los investigadores" (Masters, 2020). Si se va a realizar un trabajo que involucra un test de significancia, no vendría mal estar claro con el concepto:
+
+> "Es la probabilidad de obtener un 'resultado' de prueba de hipótesis al menos tan extremo como el calculado a partir de la muestra y la distribución escogida, si se asume que la hipótesis nula es verdadera", (definición construida a partir de varias fuentes).
+
+La última parte es crucial, **las pruebas de hipótesis son pruebas de descarte**: si el Valor P es bajo (más bajo que el nivel de significancia) esto significa que un "resultado" como el obtenido (así de extremo o más extremo) es muy poco probable bajo las condiciones dadas, por lo cuál descartamos que la hipótesis nula sea verdadera. 
+
+¿Y a qué hago referencia con "el resultado"? Las pruebas de hipótesis usan estadísticos de prueba, valores "calculados a partir de la muestra y la distribución escogidas". No entraré más en detalle para no confundir; pero, recomiendo consultar **[este post en Towards Data Science, súper ilustrativo.](https://towardsdatascience.com/p-values-explained-by-data-scientist-f40a746cfc8)**
+
+No obstante lo anterior, para muchos la mejor definición es una lista de todo lo que NO estamos hablando. Así que, **[con base en el blog de un estadístico británico](https://towardsdatascience.com/the-significant-problems-of-p-values-c31b2b6ed275)**, enlisto una serie de concepciones usuales y **ERRADAS** del Valor P:
+
+* El Valor P NO es la probabilidad de que la hipótesis nula sea verdadera: El Valor P ASUME que la hipótesis nula es verdadera, mas no es la probabilidad de esta.
+* El valor P NO es la probabilidad de que el resultado obtenido de la prueba se produzca por azar.
+* El Nivel de Significancia convencional de 5% es, valga la redundancia, una convención. Por ende, no tiene nada que ver con el Valor P en realidad.
+* El Valor P NO es el tamaño o importancia del efecto (esto sería el coeficiente del modelo matemático asociado a la prueba aplicada)
+
+## 2. Los grados de libertad del experimentador
+
+Los autores Simmons, Nelson & Simonsohn (2011) acuñaron **[en este artículo](https://journals.sagepub.com/doi/full/10.1177/0956797611417632)** el concepto **Grados de Libertad del Experimentador**, el cuál hace referencia a decisiones que un investigador debe tomar al recolectar, analizar y reportar datos, las cuáles pueden determinar el resultado de un test de significancia. 
+
+Resulta que los investigadores suelen querer rechazar la hipótesis nula, o dicho en otras palabras: **suelen querer demostrar un efecto**. Un ejemplo típico de mi carrera sería el de ingenieros diseñadores queriendo demostrar que el nuevo producto que desarrollaron tiene un mejor desempeño que el producto "viejo" de la empresa; un ejemplo más clásico podría ser el de científicos de una farmacéutica queriendo probar que cierta droga experimental sí tiene efectos beneficiosos (por ejemplo, las vacunas contra el coronavirus :grimacing:).
+
+Por ende (según el artículo :point_up:), algunas de las siguientes decisiones podrían tomarse con la intensión de rechazar la hipótesis nula:
+
+* ser flexible al escoger
+  * entre variables dependientes,
+  * el tamaño de muestra,
+  * usar covariadas o
+  * reportar solo parte de las condiciones del experimento.
+
+La consecuencia de esto es que la probabilidad de un falso positivo (el error tipo 1: *la probabilidad de rechazar la hipótesis nula cuando en realidad es verdadera*) será mayor que el alfa reportado. 
+
+<center>
+
+![Tomado de: http://agroecologiavenezuela.blogspot.com/2008/03/sobre-la-importancia-relativa-del-error.html](tabla_de_errores estadísticos.jpg)
+
+</center>
+
+¿Y qué tiene que ver esto con el Valor P? Pues, en mi opinión, si un investigador centra pensamiento solamente en correr el test de significancia, probablemente cometa el error de pensar que el resultado del Valor P es incuestionable, que es objetivo "por defecto" o que es el fin de toda la investigación.
+
+**El Valor P no es lo más importante de una investigación o de la estadística inferencial** :sweat_smile:; pero, además, resulta que en ciertas situaciones sus conclusiones pueden ser engañosas :ghost:.
+
+> "Rather, it is common (and accepted practice) for researchers to explore various analytic alternatives, to search for a combination that yields 'statistical significance', and to then report only what 'worked'. The problem, of course, is that the likelihood of at least one (of many) analyses producing a falsely positive finding at the 5% level is necessarily greater than 5%",
+> Simmons, Nelson & Simonsohn (2011).
+
+## 3. Valor P, Simulación y Big Data
+
+Seguramente todos los que hemos recibido alguna clase de Estadística hemos escuchado algo como esto, al menos una vez: *es muy difícil, sino imposible, estudiar toda una población; esta es la gran ventaja de la estadística inferencial: que se puede estudiar una muestra y generalizar las conclusiones a toda la población*; sin embargo, con la llegada del Big Data, esa  ventaja puede que haya desaparecido en ciertos casos.
+
+Por otro lado, la Simulación (o métodos con el Bootstrap) nos permiten replicar datos masivamente sobre el comportamiento de cierto sistema (comportamiento establecido –como no- por medio de la estadística inferencial).
+
+Las personas que han trabajado alguna vez con datos masivos ya lo saben: **los test de significancia dan resultados extraños** y usualmente siempre se termina rechazando la hipótesis nula. **[En este artículo de la IEEE](https://ieeexplore.ieee.org/document/7408210)**, el autor (Hoffman, 2015) presenta cuatro ejemplos en los que se aplica una prueba t de medias y que evidencian por qué no es aconsejable usar el Valor P al estudiar datos masivos. Veámoslos:
+
+<center>
+
+![Tomado de Hoffman, 2015](cuadro_t_test.png)
+
+</center>
+
+#### 1) Ejemplo típico de libro
+
+En el primer ejemplo se tienen dos tamaños de muestra moderadamente grandes, lo suficiente para cualquier método de estadística inferencial. Ya que la variabilidad entre las muestras es similar y pequeña, y además la diferencia entre medias es considerable, el Valor P es bajo, lo suficiente para descartar la hipótesis nula.
+
+<center>
+
+![*Comportamiento esperado para el tamaño de muestra dado versus la realidad, desde el punto de vista de la estadística inferencial*](caso_tipico_libro.png)
+
+</center>
+
+#### 2) Validando resultados de una simulación.
+
+El segundo ejemplo presenta diferencias enormes entre los tamaños de las muestras a comparar. Piénsese en un ingeniero de procesos que quiere validar los resultados obtenidos de una Simulación (n = 10^3), para ello toma una muestra del sistema real (n = 25) y aplica la prueba t.
+
+Ya que la muestra pequeña tiene mucha variabilidad y muy pocos datos en comparación con la simulación, si dicha simulación es fiel a la realidad, uno podría pensar que no hay suficiente evidencia para concluir que las medias son significativamente diferentes. Sin embargo, el Valor P resulta menor que el nivel de significancia. No es posible validar estadísticamente la simulación y **quizá esta conclusión esté desacertada**.
+
+#### 3) Muchos datos en ambas muestras
+
+¿Qué tal si ambas muestras son masivas? Vemos en el ejemplo una variabilidad muy alta en ambas muestras y la diferencia entre las medias es ínfima en comparación con la variabilidad.
+
+He escuchado a científicos de datos decir que *"con Big Data todo es significativo"*, aludiendo a que los datos masivos son en realidad muy variables, que de todo pasa y nada es descartable.No obstante y contra cualquier pronóstico, para la prueba t las medias son estadísticamente diferentes (con una diferencia de sólo una unidad y apesar de la variabilidad :confounded::-1:).
+
+<center>
+
+![*Comportamiento esperado para el tamaño de muestra dado versus la realidad, desde el punto de vista de la estadística inferencial*](caso_datos_masivos.png)
+
+</center>
+
+#### 4) Pocos datos en ambas muestras :unamused:
+
+El caso opuesto al ejemplo anterior nos termina de mostrar cuan engañosas pueden ser las conclusiones con el Valor P. 
+
+Supongamos que se está estudiando exactamente el mismo fenómeno que del ejemplo anterior, sólo que en este caso recogemos muy pocos datos para ambas muestras. A pesar que la variabilidad es grande (casi idéntica a la del primer ejemplo) y que la diferencia entre medias es considerablemente grande también, la prueba t dictamina que no hay diferencias significativas.
+
+Bien afirma Hoffman que, en este tipo de aplicaciones, usar el Valor P como medida de decisión no es confiable. Por ende, se recomienda usar otras medidas, específicamente los intervalos de confianza y el tamaño de los efectos (para más información consultar el artículo).
+
+## Conclusión
+
+¿Qué nos enseñan estas tres consideraciones? Creo que lo más importante, lo que a muchos se nos olvida, es que los test estadísticos -y en general la estadística inferencial- son herramientas científicas: **siempre que dejen de estar orientados a la objetividad (con o sin querer) pierden su razón de ser**.  
+
+> "Por decadas, metodólogos estadísticos destacados han argumentado que enfocarse en Valores P no propicia la ciencia, y que estas pruebas son malinterpretadas con regularidad", Hofmann (2015).
+
+<center>
+
+-o-
+
+</center>
+
+> "Nuestra objetivo como científicos no es publicar tantos articulos como sea posible, sino más bien descubrir y difundir la verdad", Simmons, Nelson y Simonsohn (2011)
+
+Gracias por leer este publicación. Dame tus comentarios a través de mis redes sociales. Nos leemos luego 😉 .
+
