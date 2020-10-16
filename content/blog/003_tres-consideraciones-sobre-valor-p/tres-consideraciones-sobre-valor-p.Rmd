@@ -4,7 +4,7 @@ author: "Bryan Rodríguez-Murillo"
 date: "2020-10-15"
 description: 
 images:
-- img\banco_imagenes\p-value.png
+- img/banco_imagenes/p-value.png
 tags:
 - ciencia de datos
 - laboral
