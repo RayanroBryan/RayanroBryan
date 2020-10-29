@@ -2,7 +2,7 @@
 title: "La historia que decido contarme"
 author: "Ráyanro Bryan"
 date: "2020-10-29"
-description: "Una reflexión sobre el significado de ser costarricense"
+description: "Una reflexión ser costarricense"
 images:
 - img/banco_imagenes/foto_ninas_jovenes_escolares_estudiantes.jpg
 tags:
