@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Bryan Rodríguez M</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Thu, 15 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>arte</title>
+      <link>/tags/arte/</link>
+      <pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/arte/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>personal</title>
+      <link>/tags/personal/</link>
+      <pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/personal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>relatos</title>
+      <link>/tags/relatos/</link>
+      <pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/relatos/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ciencia de datos</title>
@@ -48,29 +75,11 @@
     </item>
     
     <item>
-      <title>personal</title>
-      <link>/tags/personal/</link>
-      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/personal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>proyectos</title>
       <link>/tags/proyectos/</link>
       <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/proyectos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>relatos</title>
-      <link>/tags/relatos/</link>
-      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/relatos/</guid>
       <description></description>
     </item>
     

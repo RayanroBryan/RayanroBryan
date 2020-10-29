@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>relatos on Bryan Rodríguez M</title>
-    <link>/tags/relatos/</link>
-    <description>Recent content in relatos on Bryan Rodríguez M</description>
+    <title>arte on Bryan Rodríguez M</title>
+    <link>/tags/arte/</link>
+    <description>Recent content in arte on Bryan Rodríguez M</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Thu, 29 Oct 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/relatos/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/arte/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,16 +18,6 @@
       
       <guid>/blog/004_la-historia-que-decido-contarme/la-historia-que-decido-contarme/</guid>
       <description>body {text-align: justify}De pequeño me caracterizaba por una de las peculiaridades más insólitas que jamás nadie pudo imaginar: me gustaba Educación Cívica. En serio, no estoy bromeando, en verdad me gustaba mucho 😅. Recuerdo con agrado las clases en las que nos enseñaban los valores de nuestra sociedad y aquellas otras en las que nos contaban la historia de Costa Rica (aunque muy brevemente y sin profundidad, al fin de cuentas yo era el único en clase que no se dormía 💤).</description>
-    </item>
-    
-    <item>
-      <title>Definiendo mi futuro profesional (Parte 1)</title>
-      <link>/blog/001_mi-futuro-profesional-1/mi-futuro-profesional-1/</link>
-      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/001_mi-futuro-profesional-1/mi-futuro-profesional-1/</guid>
-      <description>body {text-align: justify}En esta entrada de blog, comparto la primera parte de mi experiencia personal en la búsqueda de empleo para realizar mi proyecto de graduación como futuro Ing. en Producción Industrial. Antes de iniciar dicho proceso, empecé a hacerme una pregunta muy existencial: ¿Cuál es mi visión como futuro profesional? ¿Qué lugar ocupa lo laboral en mi plan de vida?
-El origenAntes de entrar en materia, me gustaría iniciar con una anécdota que inició mi esta existencial inquietud por mi futuro profesional.</description>
     </item>
     
   </channel>
